@@ -1,0 +1,5 @@
+functions-framework==3.*
+google-cloud-firestore
+google-genai
+google-auth
+requests
