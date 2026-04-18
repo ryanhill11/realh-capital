@@ -1,0 +1,1 @@
+gcloud scheduler jobs create http realh-capital-trigger-evening-scout --schedule="15 19 * * 1-5" --uri="https://realh-capital-evening-can-slim-scout-job-1016016100398.us-central1.run.app" --http-method=GET --time-zone="America/Chicago" --location=us-central1 --oidc-service-account-email="1016016100398-compute@developer.gserviceaccount.com"
