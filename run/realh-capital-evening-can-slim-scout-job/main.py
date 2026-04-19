@@ -35,7 +35,7 @@ client = genai.Client(
 )
 
 @functions_framework.http
-def evening_can_slim_scout_job(request):
+def realh_capital_evening_can_slim_scout_job(request):
     try:
         clear_collection(db.collection('watchlist'))
         candidates = run_grounded_scan()
@@ -61,6 +61,8 @@ def run_grounded_scan():
     Perform a CAN SLIM scan. Identify 5-7 US stocks with:
     - Current Qtr Earnings > 25%
     - Annual Earnings Growth > 25% (3yr)
+    - New Products/Management/Highs
+    - High-volume demand, especially when a stock is breaking out of a price consolidation area (cup-with-handle) (supply and demand)
     - Relative Strength Rating > 80 (L)
     - Increasing Institutional Sponsorship
     
