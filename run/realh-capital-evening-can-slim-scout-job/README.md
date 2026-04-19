@@ -16,3 +16,7 @@ Containers > Resources > Memory: 1 Gib
 Request timeout: 540
 
 Function entry point: realh_capital_evening_can_slim_scout_job
+
+Edit Container > Variables & Secrets
+TELEGRAM_BOT_TOKEN
+TELEGRAM_CHAT_ID
